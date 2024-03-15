@@ -1,2 +1,2 @@
-# eca-pmd
+# pmd-docs
 Performance management dashboard system documentation
