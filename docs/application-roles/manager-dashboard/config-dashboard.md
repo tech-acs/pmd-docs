@@ -34,3 +34,20 @@ Each of these elements plays a crucial role in the effective functioning and acc
 - To add a new data collection frequency, click the “+ Add data collection frequency” button located at the top right of the page. This action will bring up a new screen, as depicted in Figure 7, where you can enter the required details. After filling in this information, click the “Add” button on the popup to save your entry. You will then be redirected back to the “Data Collection Frequency” page.
 
 ![Dashboard Management Steps](../../../static/img/configuration-popup-screen.png)
+
+On the “Data Collection Frequency” page, you have a variety of functions at your disposal:
+
+  (A) To view an existing entry, click the view icon (👁️‍) located in the action column.
+  
+  (B) For editing an entry, select the pencil icon (🖉), also found under the action column.
+  
+  (C) To remove an entry, click the delete icon (🗑️).
+  
+  (D) Additionally, at the top of the page, there is a search box to help you filter and locate specific entries, making it easier to navigate through them.
+  
+  (E) If there are more entries than can fit on a single page, you will find page navigation controls at the bottom of the page to help you move through multiple pages.
+
+Configuring the remaining system variables follows a similar pattern. Just select the appropriate menu item to start.
+As you become familiar with the configuration process in one section, you’ll find navigating through other sections
+increasingly intuitive. While the key difference lies in the specific details required on each page, the overall design
+ensures a consistent and user-friendly experience throughout the system
