@@ -1,0 +1,11 @@
+{
+  "label": "Application Roles",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "In the Performance Dashboard System, application roles are crucial for shaping user interaction and managing
+    system access. Within the Performance Dashboard, there are five principal application roles: Data Manager, Data Approver,
+    Dashboard Manager, Data Viewer, and System Managers. Each role is distinctively crafted to address particular
+    duties and responsibilities within the dashboard.."
+  }
+}

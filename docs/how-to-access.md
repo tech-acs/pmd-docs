@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # How to access the dashboard
 
-The Performance Dashboard System is an internal, web-based application that can be accessed via an internet
+The Performance Managment Dashboard System is an internal, web-based application that can be accessed via an internet
 browser.
 
 :::info[access info]
