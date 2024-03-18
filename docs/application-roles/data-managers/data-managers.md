@@ -10,7 +10,7 @@ conducted by those with the requisite knowledge and accountability for specific 
 In the dashboard system, there are two primary types of data that require regular input. The first is the performance data related to Key Performance Indicators (KPIs), and the second comprises initiatives that are aligned with the strategic objectives of the organization.
 
 
-## KPI data management
+## KPI Data Management
 
 ### STEP 1
 
