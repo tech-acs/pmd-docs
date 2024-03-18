@@ -19,19 +19,19 @@ Each of these elements plays a crucial role in the effective functioning and acc
 
 ### STEP 1
 
-- To configure the settings mentioned above, click on the “OTHERS” tab to view a list of corresponding apps. Alternatively, you can select “Configuration” from the left side menu. This will display a list of configuration variables as shown below.
+To configure the settings mentioned above, click on the “OTHERS” tab to view a list of corresponding apps. Alternatively, you can select “Configuration” from the left side menu. This will display a list of configuration variables as shown below.
 
 ![Configuration page](../../../static/img/dashboard-configuration-page.png)
 
 ### STEP 2
 
-- Select the specific configuration you wish to set. For instance, to configure “Data Collection Frequency,” click on its respective menu item or app card. This action will lead you to the screen displayed below.
+Select the specific configuration you wish to set. For instance, to configure “Data Collection Frequency,” click on its respective menu item or app card. This action will lead you to the screen displayed below.
 
 ![Data collection frequency page](../../../static/img/data-collection-frequency-page.png)
 
 ### STEP 3
 
-- To add a new data collection frequency, click the “+ Add data collection frequency” button located at the top right of the page. This action will bring up a new screen, as depicted in Figure 7, where you can enter the required details. After filling in this information, click the “Add” button on the popup to save your entry. You will then be redirected back to the “Data Collection Frequency” page.
+To add a new data collection frequency, click the “+ Add data collection frequency” button located at the top right of the page. This action will bring up a new screen, as depicted in Figure 7, where you can enter the required details. After filling in this information, click the “Add” button on the popup to save your entry. You will then be redirected back to the “Data Collection Frequency” page.
 
 ![Dashboard Management Steps](../../../static/img/configuration-popup-screen.png)
 
