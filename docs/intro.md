@@ -8,7 +8,7 @@ Let's discover **Performance Management Dashboard**.
 
 ## Performance Management Dashboard
 
-The Performance Management Dashboard, developed for the **Ministry of Foreign Affairs of Botswana**, is an innovative tool for monitoring and reporting key performance indicators (KPIs) on a quarterly basis. This system offers dynamic visual representations like charts, graphs, and scorecards, enabling management to effectively track organizational performance at different levels.
+The Performance Management Dashboard, developed for the **Ministry of Foreign Affairs of Botswana**, is an innovative tool for monitoring and reporting key performance indicators (KPIs) on a monthly basis. This system offers dynamic visual representations like charts, graphs, and scorecards, enabling management to effectively track organizational performance at different levels.
 
 The dashboard presents KPIs in an easily understandable format, facilitating analysis and decision-making. It also displays summarized KPI scores to reflect the achievement of specific strategic objectives. These scores are further consolidated
 to evaluate the performance of various perspectives, culminating in a singular score representing the organization’s overall performance.
@@ -22,14 +22,13 @@ staff, encompassing tasks such as data entry, validation, and processing, along 
 performance monitoring. The accuracy and effectiveness of the system are closely
 tied to the quality and timeliness of data entered.
 
-Developed using advanced tools typically employed in high-security and missioncritical applications, the dashboard is tailored to meet the unique needs and
+Developed using advanced tools typically employed in high-security and mission-critical applications, the dashboard is tailored to meet the unique needs and
 sensitivity of the Ministry. It incorporates features that foster smooth internal
 collaboration, eliminating the need for external tools to track data and information.
 It includes intuitive modules and user-friendly interfaces, thereby ensuring smooth
 adaptation and reducing the learning curve for users.
 
-With robust security measures in place, the system adheres to standard software
-development practices. The system is designed with adaptability and customization
-in mind, ensuring it can evolve to meet the shifting requirements of the organization.
+The system adheres to standard software development practices with robust security measures in place. The system is designed with adaptability and customization in mind, ensuring it can evolve to meet the shifting requirements of the organization.
+
 Additionally, its versatile nature makes it suitable for adoption by various other
 organizations.
