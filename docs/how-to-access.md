@@ -4,8 +4,7 @@ sidebar_position: 2
 
 # How to access the dashboard
 
-The Performance Managment Dashboard System is an internal, web-based application that can be accessed via an internet
-browser.
+The Performance Management Dashboard System is an internal, web-based application that can be accessed via the internet browser.
 
 :::info[access info]
 
@@ -25,14 +24,13 @@ process and agree to the terms of use, you will be able to start using the Perfo
 
 ### STEP 1
 
-- Enter the URL into your browser’s address bar. This will direct you to the main landing page of the application,
-as illustrated below.
+- Enter the URL into your browser’s address bar. This will direct you to the main landing page of the application, as illustrated below.
 
 ![PMD Landing Page](../static/img/pmd-landing-page.png)
 
 ### STEP 2
 
-- To login, please click on either the `Login` or `Get Started` button displayed on the above-mentioned landing
+- To login, please click on either the `Login` or `Get Started` buttons displayed on the above-mentioned landing
 page. This action will lead you to a new screen where you’ll be prompted to enter your login credentials.
 
 ![PMD Login Page](../static/img/pmd-login-page.png)
@@ -45,13 +43,13 @@ page. This action will lead you to a new screen where you’ll be prompted to en
 
 The home page of the dashboard presents a list of applications, each aligned with the user’s assigned permissions.
 
-1. Users with the `Dashboard Users` role, for example, have access limited to functions like `View Dashboar` and `Printable Reports`.
+1. Users with the `Dashboard Users` role, for example, have access limited to functions like `View Dashboard` and `Printable Reports`.
 
 2. Those assigned the `Data Manager` role will find options primarily focused on data entry.
 
-3. Users in the `Data Approver` role will find options focusing validation and approval submitted by data mangers.  
+3. Users in the `Data Approver` role will find options focusing on validation and approval submitted by data managers.  
 
-4. Users assigned the `Data Approver` role will find options specifically centered on validating and approving  data submitted by `Data Managers`.
+4. Users assigned the `Data Approver` role will find options specifically centred on validating and approving  data submitted by `Data Managers`.
 
 5. Users in the `Dashboard Manager` and `System Manager` role have the privilege to view all available options.
 
