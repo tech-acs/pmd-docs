@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Performance Management Dashboard System',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Empower Your Decision-Making with Insights',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
