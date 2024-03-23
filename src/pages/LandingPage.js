@@ -15,6 +15,7 @@ import getTheme from "@site/src/components/Theme";
 import Header from "@site/src/components/Header";
 import Hero from "@site/src/components/Hero";
 import Features from "@site/src/components/Features";
+import ProductIntro from "@site/src/components/ProductIntro";
 
 // @icons
 import DevicesRoundedIcon from "@mui/icons-material/DevicesRounded";
@@ -64,20 +65,15 @@ const featureList = [
 ];
 
 const LandingPage = () => {
-  const { siteConfig } = useDocusaurusContext();
-
-  const [showCustomTheme, setShowCustomTheme] = React.useState(true);
-
   const { colorMode } = useColorMode();
 
-  const defaultTheme = createTheme({});
   const muiLightTheme = createTheme(getTheme("light"));
   const muiDarkTheme = createTheme(getTheme("dark"));
 
   const muiCustomTheme = colorMode === "dark" ? muiDarkTheme : muiLightTheme;
 
   return (
-    <ThemeProvider theme={showCustomTheme ? muiCustomTheme : defaultTheme}>
+    <ThemeProvider theme={muiCustomTheme}>
       <CssBaseline />
       <Container
         sx={{
@@ -95,12 +91,13 @@ const LandingPage = () => {
         }}
       >
         <Header />
-        <Hero />
+        <ProductIntro />
         <Box
           sx={{
-            bgcolor: "background.trasparent",
+            bgcolor: "background.transparent",
           }}
         >
+          <Hero />
           <Features items={featureList} />
         </Box>
       </Container>
