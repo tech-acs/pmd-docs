@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'pmd-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -93,6 +93,12 @@ const config = {
             label: 'Docs',
           },
         ],
+
+      },
+      algolia: {
+        apiKey: "cfcc4c7bd96e56981a8b206a269edf2b",
+        indexName: "pmd_index",
+        appId: "787PGT4036"
       },
       footer: {
         style: 'dark',

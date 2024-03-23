@@ -91,7 +91,7 @@ function Feature({ animation, title, description }) {
   );
 }
 
-export default function ProdcutIntro() {
+const ProdcutIntro = () => {
   return (
     <Box
       id="features"
@@ -122,4 +122,6 @@ export default function ProdcutIntro() {
       </div>{" "}
     </Box>
   );
-}
+};
+
+export default ProdcutIntro;
