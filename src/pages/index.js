@@ -1,7 +1,6 @@
 import * as React from "react";
 
 // @docusaurus
-import { ColorModeProvider, useColorMode } from "@docusaurus/theme-common";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 

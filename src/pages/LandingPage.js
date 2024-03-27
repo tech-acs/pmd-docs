@@ -1,9 +1,7 @@
 import * as React from "react";
-import { useState, useEffect, useMemo } from "react";
 import { useTheme } from "@mui/material/styles";
 
 // @docusaurus
-import { ColorModeProvider, useColorMode } from "@docusaurus/theme-common";
 import muiTheme from "@site/src/components/MuiTheme";
 
 // @mui

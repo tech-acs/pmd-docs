@@ -45,8 +45,8 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+
+          editUrl: "https://github.com/tech-acs/pmd-docs/tree/main/",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -54,8 +54,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/tech-acs/pmd-docs/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -98,6 +97,7 @@ const config = {
         apiKey: "cfcc4c7bd96e56981a8b206a269edf2b",
         indexName: "pmd_index",
         appId: "787PGT4036",
+        searchPagePath: false,
       },
       footer: {
         style: "dark",
@@ -142,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PMD, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

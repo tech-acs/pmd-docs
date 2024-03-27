@@ -56,7 +56,7 @@ const Features = ({ items }) => {
         </Box>
         <Grid container spacing={6}>
           {items.map(({ icon, title, description }, index) => (
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} key={index}>
               <Stack
                 direction="column"
                 justifyContent="center"
