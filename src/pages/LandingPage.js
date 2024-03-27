@@ -1,8 +1,10 @@
 import * as React from "react";
+import { useState, useEffect, useMemo } from "react";
+import { useTheme } from "@mui/material/styles";
 
-//@docusaurus
-import { useColorMode } from "@docusaurus/theme-common";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+// @docusaurus
+import { ColorModeProvider, useColorMode } from "@docusaurus/theme-common";
+import muiTheme from "@site/src/components/MuiTheme";
 
 // @mui
 import { ThemeProvider, createTheme } from "@mui/material/styles";
@@ -10,8 +12,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
-//@site
-import getTheme from "@site/src/components/Theme";
+// @site
 import Header from "@site/src/components/Header";
 import Hero from "@site/src/components/Hero";
 import Features from "@site/src/components/Features";
@@ -64,16 +65,17 @@ const featureList = [
   },
 ];
 
+const muiLightTheme = createTheme(muiTheme.colorSchemes.light);
+const muiDarkTheme = createTheme(muiTheme.colorSchemes.dark);
+
 const LandingPage = () => {
-  const { colorMode } = useColorMode();
+  const theme = useTheme();
 
-  const muiLightTheme = createTheme(getTheme("light"));
-  const muiDarkTheme = createTheme(getTheme("dark"));
-
-  const muiCustomTheme = colorMode === "dark" ? muiDarkTheme : muiLightTheme;
+  // The current theme mode
+  const isDarkMode = theme.palette.mode === "dark";
 
   return (
-    <ThemeProvider theme={muiCustomTheme}>
+    <ThemeProvider theme={isDarkMode ? muiDarkTheme : muiLightTheme}>
       <CssBaseline />
       <Container
         sx={{
@@ -98,8 +100,8 @@ const LandingPage = () => {
           }}
         >
           <Hero />
-          <Features items={featureList} />
-        </Box>
+          <Features items={featureList} />{" "}
+        </Box>{" "}
       </Container>
     </ThemeProvider>
   );

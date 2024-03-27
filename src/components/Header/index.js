@@ -27,11 +27,7 @@ const Header = () => {
         {siteConfig.title}
       </Heading>
       <p className="hero__subtitle"> {siteConfig.tagline} </p>
-      <Box className={styles.buttons}>
-        <Link className="button button--secondary button--lg" to="/docs/intro">
-          Docusaurus Tutorial - 5 min⏱️
-        </Link>
-      </Box>
+      <Box className={styles.buttons}></Box>
     </Container>
   );
 };
