@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpmd_docs=self.webpackChunkpmd_docs||[]).push([[4118],{8974:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/pmd-docs/blog/tags/hello","allTagsPath":"/pmd-docs/blog/tags","count":2,"unlisted":false}')}}]);
