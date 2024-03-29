@@ -18,12 +18,14 @@ const config = {
   url: "https://tech-acs.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/pmd-docs/",
+  baseUrl: "/pmd-docs",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "tech-acs", // Usually your GitHub org/user name.
   projectName: "pmd-docs", // Usually your repo name.
+
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
