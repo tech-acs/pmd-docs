@@ -99,6 +99,7 @@ const config = {
         apiKey: "cfcc4c7bd96e56981a8b206a269edf2b",
         indexName: "pmd_index",
         appId: "787PGT4036",
+        contextualSearch: true,
         searchPagePath: false,
       },
       footer: {
