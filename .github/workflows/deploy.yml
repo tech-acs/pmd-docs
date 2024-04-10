@@ -3,7 +3,7 @@ name: Deploy pmd-docs content to Pages
 on:
     push:
       branches:
-        - main # Change this to your default branch if it's different
+        - master # Change this to your default branch if it's different
    
   jobs:
     deploy:
