@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Let's discover **Performance Management Dashboard**.
+Let's discover **Performance Management Dashboard System**.
 
 ## Performance Management Dashboard
 
