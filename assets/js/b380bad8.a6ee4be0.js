@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpmd_docs=self.webpackChunkpmd_docs||[]).push([[3517],{1971:s=>{s.exports=JSON.parse('{"label":"facebook","permalink":"/pmd-docs/blog/tags/facebook","allTagsPath":"/pmd-docs/blog/tags","count":1,"unlisted":false}')}}]);
