@@ -52,12 +52,6 @@ const config = {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/tech-acs/pmd-docs/tree/main/",
-        },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -135,12 +129,8 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/tech-acs/pmd-docs",
               },
             ],
           },
