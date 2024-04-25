@@ -67,6 +67,22 @@ const config = {
         "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
       crossorigin: "anonymous",
     },
+    {
+      href: "https://cdn.jsdelivr.net/npm/@docsearch/css@3",
+      type: "text/css",
+      crossorigin: "anonymous",
+    },
+  ],
+
+  scripts: [
+    {
+      src:'https://cdn.jsdelivr.net/npm/@docsearch/js@3',
+      async: true,
+    },
+    {
+      src:'/js/docsearch.js',
+      async: false,
+    },
   ],
 
   themeConfig:
@@ -90,9 +106,9 @@ const config = {
         ],
       },
       algolia: {
-        apiKey: "cfcc4c7bd96e56981a8b206a269edf2b",
-        indexName: "pmd_index",
-        appId: "787PGT4036",
+        apiKey: "26a03deccb40ab02b919963bce15cf6c",
+        indexName: "tech-acsio",
+        appId: "QOR3TFOWQI",
         contextualSearch: true,
         searchPagePath: false,
       },
