@@ -4,34 +4,29 @@ sidebar_position: 2
 
 # How to access the dashboard
 
-The Performance Management Dashboard System is an internal, web-based application that can be accessed via the internet browser.
+The Performance Management Dashboard System is an internal web-based application that requires login credentials and is accessible through any web browser.
 
 :::info[access info]
 
-For enhanced security, each user is required to log in using a unique username and password.
+For security, each user is required to log in using a username and password.
 
 :::
 
-This system,
-designed for internal organizational use, is accessible only through specific invitations.
+The Dashbaord is accessible only through invitations.
 
-- As a potential user, you will
-receive an email invitation from the dashboard manager to join the system.
-- Upon receiving this invitation, you will
-be guided to register by entering your personal details and creating a password.
-- Once you complete the registration
-process and agree to the terms of use, you will be able to start using the Performance Dashboard System.
+- When you are invited, you will receive an email invitation from the dashboard manager to register to the system.
+- The email will guide you to register by entering your personal details and creating a password.
+- Once you complete the registration and agree to the terms of use, you will be able to start using the Performance Dashboard System.
 
 ### STEP 1
 
-- Enter the URL into your browser’s address bar. This will direct you to the main landing page of the application, as illustrated below.
+- Once registered, type of copythe URL of the dashboard into your browser. This will direct you to the main landing page of the application, as showen below.
 
 ![PMD Landing Page](../static/img/pmd-landing-page.png)
 
 ### STEP 2
 
-- To login, please click on either the `Login` or `Get Started` buttons displayed on the above-mentioned landing
-page. This action will lead you to a new screen where you’ll be prompted to enter your login credentials.
+- To login, please click on either the `Login` or `Get Started` buttons displayed on the above-mentioned landing page. This action will lead you to a new screen where you’ll be prompted to enter your login credentials.
 
 ![PMD Login Page](../static/img/pmd-login-page.png)
 
